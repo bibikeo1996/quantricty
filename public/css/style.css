@@ -1,0 +1,13 @@
+.actions a{
+  margin:0 5px;
+  cursor: pointer;
+}
+.custom-form div:not(:last-child){
+  margin-bottom:10px;
+}
+#checkout-form .form-check{display:flex;}
+#checkout-form label{
+  width:100px;
+  margin-top:9px;
+}
+

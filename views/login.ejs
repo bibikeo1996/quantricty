@@ -1,0 +1,27 @@
+<%- include('./include/head'); %>
+<body class="be-splash-screen">
+  <div class="be-wrapper be-login">
+      <div class="be-content">
+        <div class="main-content container-fluid">
+          <div class="splash-container">
+            <div class="card card-border-color card-border-color-primary">
+              <div class="card-header"><img class="logo-img" src="img/logo-company.png" alt="logo" width="102" height="27"><span class="splash-description">Hệ Thống Quản Trị</span></div>
+              <div class="card-body">
+                <form action="/login_" method="POST">
+                  <div class="form-group">
+                    <input name="username" class="form-control" id="username" type="text" placeholder="Tài khoản.." autocomplete="off" value="admin">
+                  </div>
+                  <div class="form-group">
+                    <input name="password" class="form-control" id="password" type="password" placeholder="Mật khẩu.." value="4356143">
+                  </div>
+                  <div class="form-group login-submit"><button type="submit" class="btn btn-primary btn-xl" data-dismiss="modal">Đăng nhập</button></div>
+                </form>
+              </div>
+            </div>
+            <!-- <div class="splash-footer"><span>Chưa có tài khoản? <a href="/register">Đăng Ký</a></span></div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+<%- include('./include/footer'); %>
